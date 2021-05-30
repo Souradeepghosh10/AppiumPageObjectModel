@@ -50,10 +50,6 @@ public class BaseTest {
 	protected static ThreadLocal<String> dateTime = new ThreadLocal<String>();
 	protected static ThreadLocal<String> deviceName = new ThreadLocal<String>();
 	private static AppiumDriverLocalService server;
-	//private static ThreadLocal<AppiumDriverLocalService> server = new ThreadLocal<>();
-//	public AppiumDriverLocalService getServer(){
-//        return server.get();
-//    }
 	TestUtils utils = new TestUtils();
 
 	public AppiumDriver getDriver() {

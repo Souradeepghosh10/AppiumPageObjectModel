@@ -19,39 +19,40 @@
         </classes>
     </test>
     
-    <test name="RealMe">
-        <listeners>
-            <listener class-name="com.qa.listeners.TestListener" />
-        </listeners>
-        <parameter name="emulator" value="false" />
-        <parameter name="platformName" value="Android" />
-        <parameter name="udid" value="eb9a6c92" />
-        <parameter name="deviceName" value="Realme 2" />
-        <parameter name="systemPort" value="10000" />
-        <parameter name="chromeDriverPort" value="11000" />
-        <parameter name="portNumber" value="8201" />
-        <classes>
-            <class name="com.qa.tests.LoginTests"/>
-         <class name="com.qa.tests.ProductTests"/>  
-        </classes>
-    </test>
-
-    
-<!--      <test name="Pixel 2"> -->
+<!--     <test name="RealMe"> -->
 <!--         <listeners> -->
 <!--             <listener class-name="com.qa.listeners.TestListener" /> -->
 <!--         </listeners> -->
-<!--         <parameter name="emulator" value="true" /> -->
+<!--         <parameter name="emulator" value="false" /> -->
 <!--         <parameter name="platformName" value="Android" /> -->
-<!--         <parameter name="udid" value="emulator-5554" /> -->
-<!--         <parameter name="deviceName" value="Souradeep" /> -->
+<!--         <parameter name="udid" value="eb9a6c92" /> -->
+<!--         <parameter name="deviceName" value="Realme 2" /> -->
 <!--         <parameter name="systemPort" value="10000" /> -->
 <!--         <parameter name="chromeDriverPort" value="11000" /> -->
+<!--         <parameter name="portNumber" value="8201" /> -->
 <!--         <classes> -->
 <!--             <class name="com.qa.tests.LoginTests"/> -->
-<!--          <class name="com.qa.tests.ProductTests"/> --> 
+<!--          <class name="com.qa.tests.ProductTests"/>   -->
 <!--         </classes> -->
 <!--     </test> -->
+
+    
+     <test name="Pixel 2">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+        </listeners>
+        <parameter name="emulator" value="true" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="deviceName" value="Souradeep" />
+        <parameter name="systemPort" value="10000" />
+        <parameter name="chromeDriverPort" value="11000" />
+        <parameter name="portNumber" value="8202" />
+        <classes>
+            <class name="com.qa.tests.LoginTests"/>
+         <class name="com.qa.tests.ProductTests"/> 
+        </classes>
+    </test>
     
 <!--     <test name="Pixel 3"> -->
 <!--         <listeners> -->
@@ -63,9 +64,10 @@
 <!--         <parameter name="deviceName" value="Souradeep1" /> -->
 <!--         <parameter name="systemPort" value="10000" /> -->
 <!--         <parameter name="chromeDriverPort" value="11000" /> -->
+<!--           <parameter name="portNumber" value="8203" /> -->
 <!--         <classes> -->
 <!--             <class name="com.qa.tests.LoginTests"/> -->
-<!--            <class name="com.qa.tests.ProductTests"/> --> 
+<!--            <class name="com.qa.tests.ProductTests"/>  -->
 <!--         </classes> -->
 <!--     </test> -->
 <!--     <test name="iPhone11"> -->
