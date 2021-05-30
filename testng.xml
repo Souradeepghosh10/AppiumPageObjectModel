@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+
+<test name="OPPOF19">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+        </listeners>
+        <parameter name="emulator" value="false" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="75HUQCJVIZ4TNN6L" />
+        <parameter name="deviceName" value="OPPO F19 Pro" />
+        <parameter name="systemPort" value="10000" />
+        <parameter name="chromeDriverPort" value="11000" />
+        <parameter name="portNumber" value="8200" />
+        
+        <classes>
+            <class name="com.qa.tests.LoginTests"/> 
+            <class name="com.qa.tests.ProductTests"/>
+        </classes>
+    </test>
+    
+    <test name="RealMe">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+        </listeners>
+        <parameter name="emulator" value="false" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="eb9a6c92" />
+        <parameter name="deviceName" value="Realme 2" />
+        <parameter name="systemPort" value="10000" />
+        <parameter name="chromeDriverPort" value="11000" />
+        <parameter name="portNumber" value="8201" />
+        <classes>
+            <class name="com.qa.tests.LoginTests"/>
+         <class name="com.qa.tests.ProductTests"/>  
+        </classes>
+    </test>
+
+    
+<!--      <test name="Pixel 2"> -->
+<!--         <listeners> -->
+<!--             <listener class-name="com.qa.listeners.TestListener" /> -->
+<!--         </listeners> -->
+<!--         <parameter name="emulator" value="true" /> -->
+<!--         <parameter name="platformName" value="Android" /> -->
+<!--         <parameter name="udid" value="emulator-5554" /> -->
+<!--         <parameter name="deviceName" value="Souradeep" /> -->
+<!--         <parameter name="systemPort" value="10000" /> -->
+<!--         <parameter name="chromeDriverPort" value="11000" /> -->
+<!--         <classes> -->
+<!--             <class name="com.qa.tests.LoginTests"/> -->
+<!--          <class name="com.qa.tests.ProductTests"/> --> 
+<!--         </classes> -->
+<!--     </test> -->
+    
+<!--     <test name="Pixel 3"> -->
+<!--         <listeners> -->
+<!--             <listener class-name="com.qa.listeners.TestListener" /> -->
+<!--         </listeners> -->
+<!--         <parameter name="emulator" value="true" /> -->
+<!--         <parameter name="platformName" value="Android" /> -->
+<!--         <parameter name="udid" value="emulator-5556" /> -->
+<!--         <parameter name="deviceName" value="Souradeep1" /> -->
+<!--         <parameter name="systemPort" value="10000" /> -->
+<!--         <parameter name="chromeDriverPort" value="11000" /> -->
+<!--         <classes> -->
+<!--             <class name="com.qa.tests.LoginTests"/> -->
+<!--            <class name="com.qa.tests.ProductTests"/> --> 
+<!--         </classes> -->
+<!--     </test> -->
+<!--     <test name="iPhone11"> -->
+<!--         <listeners> -->
+<!--             <listener class-name="com.qa.listeners.TestListener" /> -->
+<!--         </listeners> -->
+<!--         <parameter name="platformName" value="iOS" /> -->
+<!--         <parameter name="udid" value="63E2D54C-CA63-4ECA-89C2-61F2F41EE2F7" /> -->
+<!--         <parameter name="deviceName" value="iPhone 12 Pro Max" /> -->
+<!--         <parameter name="wdaLocalPort" value="10001" /> -->
+<!--         <parameter name="webkitDebugProxyPort" value="11001" /> -->
+<!--         <classes> -->
+<!--             <class name="com.qa.tests.LoginTests"/> -->
+<!--             <class name="com.qa.tests.ProductTests"/> -->
+<!--         </classes> -->
+<!--     </test> -->
+</suite> <!-- Suite -->
